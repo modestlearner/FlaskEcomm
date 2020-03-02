@@ -1,6 +1,8 @@
+'''This file will have functions related to configurations'''
+
 import yaml
-import globals.constants as glconstants
-from .db import pgconn
+import globalvars.constants as glconstants
+from utils.db import pgconn
 
 
 def loadyml():
@@ -14,4 +16,5 @@ def loadyml():
 
 def connections():
     loadyml()
+    pgconn()
     pgconn()
