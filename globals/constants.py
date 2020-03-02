@@ -1,0 +1,3 @@
+GLCONFIG = None
+GLPGCONN = None
+GLMODE = "dev"

@@ -1,0 +1,13 @@
+dev :
+  debug : True
+  db :
+    postgres :
+      user : "postgres"
+      port : "5433"
+      database : "Ecommerce"
+      host : "localhost"
+      password : "harshit"
+
+prod :
+  debug : False
+  
